@@ -450,7 +450,7 @@ ul li{
 .testimonials{
   border: 1px solid #fff;
   color: #fff;
-  padding: 3rem;
+  padding: 1rem;
   position: relative;
   width: 70%;
   margin: 10px auto;
@@ -512,6 +512,7 @@ ul li{
 .project-grid .row .column img {
   vertical-align: middle;
   width: 100%;
+  cursor: pointer;
 }
 /*-------- Our projrct section css end --------*/
 /*-------- Team section css start --------*/
