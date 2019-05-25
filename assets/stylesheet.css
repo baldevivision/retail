@@ -855,14 +855,10 @@ ul li{
 	order: 2;
 	flex-basis: 70%;
   }
-  .banner-caption1 h1, 
-  .banner-caption2 h1, 
-  .banner-caption3 h1{
+  .banner-caption h1{
     font-size: 3rem;
   }
-  .banner-caption1 p, 
-  .banner-caption2 p, 
-  .banner-caption3 p{
+  .banner-caption p{
     padding: 0;
   }
   .about-plans{
@@ -901,16 +897,45 @@ ul li{
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
-  .banner-caption1 p, 
-  .banner-caption2 p, 
-  .banner-caption3 p{
+  .banner-caption p{
     padding: 1rem;
   }
   .section-header .title .big-letter{
-    top: -10px;
+    top: -70px;
+  }
+  .section-header .title{
+    font-size: 2rem;
   }
   .video-section .overlay{
     padding: 4.5rem 1rem;
+  }
+  .team-member .top,
+  .team-member .bottom{
+    flex-direction: column;
+  }
+  .member .member-profile{
+    text-align: center;
+  }
+  .contact-us .contact-info{
+    flex-direction: column;
+  }
+  .counter .counter-list{
+    justify-content: space-around;
+  }
+  .counter-list .value{
+    font-size: 1.4375rem;
+  }
+  .counter-list .title{
+    font-size: 1rem;
+  }
+  .video-section .title {
+    font-size: 1.3rem;
+  }
+  .member {
+    margin-top: 2rem;
+  }
+  .team-member .bottom{
+    margin-top: 0;
   }
 } 
 
@@ -923,17 +948,13 @@ ul li{
   .humberger .line{
 	margin: 3px;
   }
-  .banner-caption1, 
-  .banner-caption2, 
-  .banner-caption3{
+  .banner-caption{
     margin-top: 20vh;
   }
-  .banner-caption1 p, 
-  .banner-caption2 p, 
-  .banner-caption3 p{
+  .banner-caption p{
     padding: 0;
   }
-  .project-grid .row {
+  .project-grid .row{
     flex: 100%;
   }
   .testimonials{
