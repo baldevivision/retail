@@ -256,7 +256,7 @@ ul li{
   margin: 0 auto;
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .counter-list .value{
