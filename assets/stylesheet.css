@@ -523,6 +523,9 @@ ul li{
   -o-background-image:      linear-gradient(to left, #01bbd5, #2097f2);
   -moz-background-image:    linear-gradient(to left, #01bbd5, #2097f2);
 }
+.our-team .section-header .title{
+  color: #fff;
+}
 .inner-container{
   max-width: 1500px;
   margin: 0 auto;
