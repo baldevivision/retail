@@ -469,7 +469,7 @@ ul li{
   font-weight:400;
   letter-spacing: 1px;
   color: #343a40;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .testimonials img{
   position: absolute;
