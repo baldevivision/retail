@@ -386,9 +386,14 @@ ul li{
   font-size: 0;
 }
 .service-content .owl-prev::after{
-  content:'f054';
-  font-family: fontawesome;
-  font-size: 1rem;
+     content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-size: 1rem;
+}
+.service-content .owl-next::after{
+     content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-size: 1rem;
 }
 .services-item{
   padding: 1rem;
@@ -546,12 +551,13 @@ ul li{
   text-align: left;
 }
 .member .member-info{
-  padding:1rem 2rem 1rem 1rem;
+  padding:1.5rem 2rem 1.5rem 1rem;
   background: #fff;
   position: absolute;
-  right: 90px;
+  right: 140px;
   bottom: 4px;
   text-align: left;
+  box-shadow: 1px 1px 4px #000;
 }
 .member-info .social-ac li{
   padding: 0.2rem;
@@ -639,7 +645,8 @@ ul li{
 }
 .contact-us .contact-info{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 1.5rem 0 1rem;
 }
 .contact-info .phone, 
 .contact-info .emails{
@@ -649,9 +656,11 @@ ul li{
 .contact-info .emails a{
   display: block;
   color: #000;
-  font-family: 'roboto-light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  line-height: 1.7rem;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  letter-spacing: 1px;
 }
 .contact-info .phone a:hover, 
 .contact-info .emails a:hover{
@@ -659,9 +668,12 @@ ul li{
 }
 .contact-info address{
   color: #000;
-  font-family: 'roboto-light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  line-height: 1.7rem;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  letter-spacing: 1px;
+  font-style: normal;
 }
 .contact-form .submit:hover{
   background-color: #272727;
@@ -670,7 +682,7 @@ ul li{
 }
 .contact-us .contact-info i{
   color: #00bcd4;
-  font-size: 2rem;
+  font-size: 2.7rem;
   margin: 1rem 0;
 }
 /*-------- Contact Us section css end --------*/
@@ -683,8 +695,11 @@ ul li{
 }
 .main-footer .copyright{
   color: #fff;
-  font-size: 1rem;
-  font-family: 'roboto-light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  letter-spacing: 1px;
 }	
 .main-footer .footer-social{
   margin-top: 1rem;
@@ -693,7 +708,7 @@ ul li{
   padding: 0.4rem;
 }
 .footer-social li a{
-  background: #fff;
+  background: #00bcd4;
   line-height: 2.5rem;
   border-radius: 50%;
   height: 2.5rem;
@@ -702,10 +717,10 @@ ul li{
   text-align: center;
 }
 .footer-social li a i{
-  color: #00bcd4;
+  color: #fff;
 }
 .footer-social li a:hover i{
-  color: #000;
+  color: #272727;
   transition: all 0.5s ease-in-out;
 }
 .copyright a{
