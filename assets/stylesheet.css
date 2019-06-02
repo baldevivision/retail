@@ -840,6 +840,7 @@ ul li{
 	transition: all 1s ease-out;
 	top:0;
 	pointer-events: none;
+	z-index: 7;
   } 
   .nav-links.open{
 	clip-path:         circle(1200px at 90% -20%);
